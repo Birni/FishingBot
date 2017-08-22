@@ -1,0 +1,17 @@
+﻿<Application
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:System="clr-namespace:System;assembly=System" x:Class="InnerCore.App"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="/FirstFloor.ModernUI;component/Assets/ModernUI.xaml" />
+                <ResourceDictionary Source="/Assets/ModernUI.MyTheme.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+            <BitmapImage x:Key="aktive" CreateOptions="IgnoreImageCache" CacheOption="OnLoad"  UriSource="Resources/aktiv.png"/>
+            <BitmapImage x:Key="unaktive" CreateOptions="IgnoreImageCache" CacheOption="OnLoad" UriSource="Resources/uaktiv.png"/>
+            <Thickness x:Key="Border5">5</Thickness>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
