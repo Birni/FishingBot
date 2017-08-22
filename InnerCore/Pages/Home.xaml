@@ -12,7 +12,7 @@
 
 
     <Grid Style="{StaticResource ContentRoot}">
-        <TextBlock TextWrapping="Wrap" Text="Welcome to the InnerCore Fishing Bot"  FontSize="26" Margin="0,0,264,0" FontWeight="Bold"/>
+        <TextBlock TextWrapping="Wrap"  FontSize="26" Margin="10,0,254,0" FontWeight="Bold"><Run Text="Welcome to the "/><LineBreak/><Run Text="Fishing Bot"/></TextBlock>
 
     </Grid>
 </UserControl>

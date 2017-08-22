@@ -35,7 +35,7 @@ namespace InnerCore.Pages
         bool foundletter = false;
         Letter keyletter;
         //Create a new bitmap.
-        static Bitmap bmpScreenshot = new Bitmap(130, 140);
+        static Bitmap bmpScreenshot = new Bitmap(120, 152);
 
 
         System.Drawing.Color color_;
@@ -110,102 +110,94 @@ namespace InnerCore.Pages
 public void FhishingObserverInit()
         {
             Letterlist.Add(A);
-            Pixel aw_1 = new Pixel(63, 22, PixelColor.WHITE);
+            Pixel aw_1 = new Pixel(58, 108, PixelColor.WHITE);
             A.AddPixel(aw_1);
-            Pixel aw_2 = new Pixel(65, 92, PixelColor.WHITE);
+            Pixel aw_2 = new Pixel(58, 22, PixelColor.WHITE);
             A.AddPixel(aw_2);
-            Pixel aw_3 = new Pixel(108, 117, PixelColor.WHITE);
+            Pixel aw_3 = new Pixel(71, 52, PixelColor.WHITE);
             A.AddPixel(aw_3);
-            Pixel ab_1 = new Pixel(63, 65, PixelColor.BLACK);
-            A.AddPixel(ab_1);
+            Pixel aw_4 = new Pixel(83, 90, PixelColor.WHITE);
+            A.AddPixel(aw_4);
+
 
             Letterlist.Add(C);
-            Pixel cw_1 = new Pixel(36, 31, PixelColor.WHITE);
+            Pixel cw_1 = new Pixel(59, 140, PixelColor.WHITE);
             C.AddPixel(cw_1);
-            Pixel cw_2 = new Pixel(106, 36, PixelColor.WHITE);
+            Pixel cw_2 = new Pixel(78, 111, PixelColor.WHITE);
             C.AddPixel(cw_2);
-            Pixel cw_3 = new Pixel(43, 43, PixelColor.WHITE);
+            Pixel cw_3 = new Pixel(39, 91, PixelColor.WHITE);
             C.AddPixel(cw_3);
-            Pixel cb_1 = new Pixel(88, 41, PixelColor.BLACK);
+            Pixel cb_1 = new Pixel(78, 88, PixelColor.BLACK);
             C.AddPixel(cb_1);
+            Pixel cb_2 = new Pixel(78, 61, PixelColor.BLACK);
+            C.AddPixel(cb_2);
 
             Letterlist.Add(D);
-            Pixel dw_1 = new Pixel(22, 20, PixelColor.WHITE);
+            Pixel dw_1 = new Pixel(60, 137, PixelColor.WHITE);
             D.AddPixel(dw_1);
-            Pixel dw_2 = new Pixel(104, 100, PixelColor.WHITE);
+            Pixel dw_2 = new Pixel(80, 60, PixelColor.WHITE);
             D.AddPixel(dw_2);
-            Pixel dw_3 = new Pixel(41, 31, PixelColor.WHITE);
-            D.AddPixel(dw_3);
-            Pixel db_1 = new Pixel(47, 66, PixelColor.BLACK);
+            Pixel db_1 = new Pixel(60, 151, PixelColor.BLACK);
             D.AddPixel(db_1);
 
             Letterlist.Add(E);
-            Pixel ew_1 = new Pixel(97, 70, PixelColor.WHITE);
+            Pixel ew_1 = new Pixel(56, 136, PixelColor.WHITE);
             E.AddPixel(ew_1);
-            Pixel ew_2 = new Pixel(57, 70, PixelColor.WHITE);
+            Pixel ew_2 = new Pixel(56, 76, PixelColor.WHITE);
             E.AddPixel(ew_2);
-            Pixel ew_3 = new Pixel(69, 31, PixelColor.WHITE);
+            Pixel ew_3 = new Pixel(43, 40, PixelColor.WHITE);
             E.AddPixel(ew_3);
-            Pixel ew_4 = new Pixel(37, 97, PixelColor.WHITE);
+            Pixel ew_4 = new Pixel(76, 15, PixelColor.WHITE);
             E.AddPixel(ew_4);
-            Pixel eb_1 = new Pixel(66, 52, PixelColor.BLACK);
+            Pixel eb_1 = new Pixel(79, 31, PixelColor.BLACK);
             E.AddPixel(eb_1);
 
             Letterlist.Add(Q);
-            Pixel qw_1 = new Pixel(81, 134, PixelColor.WHITE);
+            Pixel qw_1 = new Pixel(60, 151, PixelColor.WHITE);
             Q.AddPixel(qw_1);
-            Pixel qw_2 = new Pixel(113, 67, PixelColor.WHITE);
+            Pixel qw_2 = new Pixel(78, 40, PixelColor.WHITE);
             Q.AddPixel(qw_2);
-            Pixel qw_3 = new Pixel(48, 107, PixelColor.WHITE);
+            Pixel qw_3 = new Pixel(59, 13, PixelColor.WHITE);
             Q.AddPixel(qw_3);
-            Pixel qb_1 = new Pixel(39, 72, PixelColor.BLACK);
-            Q.AddPixel(qb_1);
+            Pixel qw_4 = new Pixel(40, 111, PixelColor.WHITE);
+            Q.AddPixel(qw_4);
+
 
             Letterlist.Add(S);
-            Pixel sw_1 = new Pixel(37, 112, PixelColor.WHITE);
+            Pixel sw_1 = new Pixel(59, 141, PixelColor.WHITE);
             S.AddPixel(sw_1);
-            Pixel sw_2 = new Pixel(98, 36, PixelColor.WHITE);
+            Pixel sw_2 = new Pixel(59, 75, PixelColor.WHITE);
             S.AddPixel(sw_2);
-            Pixel sw_3 = new Pixel(100, 78, PixelColor.WHITE);
+            Pixel sw_3 = new Pixel(59, 13, PixelColor.WHITE);
             S.AddPixel(sw_3);
-            Pixel sb_1 = new Pixel(26, 78, PixelColor.BLACK);
+            Pixel sb_1 = new Pixel(78, 44, PixelColor.WHITE);
             S.AddPixel(sb_1);
-            Pixel sb_2 = new Pixel(37, 97, PixelColor.BLACK);
-            S.AddPixel(sb_2);
 
             Letterlist.Add(W);
-            Pixel ww_1 = new Pixel(0, 20, PixelColor.WHITE);
+            Pixel ww_1 = new Pixel(110, 26, PixelColor.WHITE);
             W.AddPixel(ww_1);
-            Pixel ww_2 = new Pixel(125, 20, PixelColor.WHITE);
+            Pixel ww_2 = new Pixel(8, 38, PixelColor.WHITE);
             W.AddPixel(ww_2);
-            Pixel ww_3 = new Pixel(114, 93, PixelColor.WHITE);
+            Pixel ww_3 = new Pixel(59, 59, PixelColor.WHITE);
             W.AddPixel(ww_3);
-            Pixel wb_1 = new Pixel(63, 66, PixelColor.BLACK);
-            W.AddPixel(wb_1);
 
             Letterlist.Add(X);
-            Pixel xw_1 = new Pixel(28, 104, PixelColor.WHITE);
+            Pixel xw_1 = new Pixel(59, 90, PixelColor.WHITE);
             X.AddPixel(xw_1);
-            Pixel xw_2 = new Pixel(98, 36, PixelColor.WHITE);
+            Pixel xw_2 = new Pixel(61, 50, PixelColor.WHITE);
             X.AddPixel(xw_2);
-            Pixel xw_3 = new Pixel(66, 68, PixelColor.WHITE);
+            Pixel xw_3 = new Pixel(79, 12, PixelColor.WHITE);
             X.AddPixel(xw_3);
-            Pixel xw_4 = new Pixel(80, 47, PixelColor.WHITE);
+            Pixel xw_4 = new Pixel(45, 35, PixelColor.WHITE);
             X.AddPixel(xw_4);
-            Pixel xb_1 = new Pixel(22, 97, PixelColor.BLACK);
-            X.AddPixel(xb_1);
           
-
             Letterlist.Add(Z);
-            Pixel zw_1 = new Pixel(93, 45, PixelColor.WHITE);
+            Pixel zw_1 = new Pixel(59, 138, PixelColor.WHITE);
             Z.AddPixel(zw_1);
-            Pixel zw_2 = new Pixel(49, 82, PixelColor.WHITE);
+            Pixel zw_2 = new Pixel(59, 72, PixelColor.WHITE);
             Z.AddPixel(zw_2);
-            Pixel zw_3 = new Pixel(61, 120, PixelColor.WHITE);
+            Pixel zw_3 = new Pixel(68, 39, PixelColor.WHITE);
             Z.AddPixel(zw_3);
-            //old 30 41
-            Pixel zb_1 = new Pixel(32, 43, PixelColor.BLACK);
-            Z.AddPixel(zb_1);
         }
 
         public void ThreadFhishingObserver()
@@ -219,9 +211,10 @@ public void FhishingObserverInit()
                     //gfxScreenshot.CopyFromScreen(1140, 860, 0, 0, bmpScreenshot.Size, CopyPixelOperation.SourceCopy);
                     foreach (Letter letter in Letterlist)
                     {
-                        //     bmpScreenshot.Save("test.png", System.Drawing.Imaging.ImageFormat.Png);
+                  //       bmpScreenshot.Save("img.png", System.Drawing.Imaging.ImageFormat.Png);
                         // Take the screenshot from the upper left corner to the right bottom corner.
-                        gfxScreenshot.CopyFromScreen(1140, 860, 0, 0, bmpScreenshot.Size, CopyPixelOperation.SourceCopy);
+                        gfxScreenshot.CopyFromScreen(1103, 854, 0, 0, bmpScreenshot.Size, CopyPixelOperation.SourceCopy);
+
 
                         foreach (Pixel pixel in letter.Pixellist)
                         {
@@ -229,14 +222,14 @@ public void FhishingObserverInit()
 
                             if (pixel.Color == PixelColor.BLACK)
                             {
-                                if (true == (color_.R > 115 || color_.G > 115 || color_.B > 115))
+                                if (true == (color_.R > 249 || color_.G > 249 || color_.B > 249))
                                 {
                                     break;
                                 }
                             }
                             if (pixel.Color == PixelColor.WHITE)
                             {
-                                if (true == (color_.R < 220 || color_.G < 220 || color_.B < 220))
+                                if (true == (color_.R < 249 || color_.G < 249 || color_.B < 249))
                                 {
                                     break;
                                 }
@@ -263,7 +256,7 @@ public void FhishingObserverInit()
                     {
                         var color_ = bmpScreenshot.GetPixel(pixel.X, pixel.Y);
                         // Take the screenshot from the upper left corner to the right bottom corner.
-                        gfxScreenshot.CopyFromScreen(1140, 860, 0, 0, bmpScreenshot.Size, CopyPixelOperation.SourceCopy);
+                        gfxScreenshot.CopyFromScreen(1103, 854, 0, 0, bmpScreenshot.Size, CopyPixelOperation.SourceCopy);
                         if (pixel.Color == PixelColor.WHITE)
                         {
                             if (true == (color_.R < 110 && color_.G > 230 && color_.B < 115))

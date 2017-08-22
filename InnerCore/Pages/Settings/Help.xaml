@@ -10,10 +10,11 @@
         <ScrollViewer>
             <StackPanel MinWidth="200">
                 <TextBlock Text="1. Ark auf dem Windows Haubtbildschirm starten" />
-                <TextBlock Text="2. Die Auflösung in Ark auf 1920 × 1080 Pixel stellen" />
-                <TextBlock Text="3. Ark auf rahmenloseren Fenstermodus stellen" />
-                <TextBlock Text="4. Fishing Bot starten" />
-                <TextBlock Text="5. Angel auswerfen" />
+                <TextBlock Text="2. Ark Spielsprache auf Englisch stellen" />                
+                <TextBlock Text="3. Die Auflösung in Ark auf 1920 × 1080 Pixel stellen" />
+                <TextBlock Text="4. Ark auf rahmenloseren Fenstermodus stellen" />
+                <TextBlock Text="5. Fishing Bot starten" />
+                <TextBlock Text="6. Angel auswerfen" />
             </StackPanel>
         </ScrollViewer>
     </Grid>

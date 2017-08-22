@@ -24,3 +24,4 @@ c:\users\matth\documents\visual studio 2015\Projects\InnerCore\InnerCore\obj\Deb
 c:\users\matth\documents\visual studio 2015\Projects\InnerCore\InnerCore\obj\Debug\InnerCore_Content.g.cs
 C:\Users\matth\Documents\Visual Studio 2015\Projects\InnerCore\InnerCore\obj\Debug\InnerCore.Properties.Resources.resources
 C:\Users\matth\Documents\Visual Studio 2015\Projects\InnerCore\InnerCore\obj\Debug\InnerCore.csproj.GenerateResource.Cache
+C:\Users\matth\documents\visual studio 2015\Projects\InnerCore\InnerCore\obj\Debug\InnerCore.csprojResolveAssemblyReference.cache

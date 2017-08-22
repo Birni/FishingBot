@@ -9,7 +9,7 @@
     <Grid Style="{StaticResource ContentRoot}">
         <ScrollViewer>
             <StackPanel MinWidth="200">
-                <TextBlock Text="InnerCore Fishing Bot Version 0.2.2" />
+                <TextBlock Text="Fishing Bot Version 0.3.0" />
                 <TextBlock Text="© Matthias Birnthaler 2017" />
             </StackPanel>
         </ScrollViewer>
